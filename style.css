@@ -24,13 +24,49 @@ body{
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
-    
+    padding: 40px;
+}
+.profile img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+
+}
+
+.profile{
+text-align: center;
+}
+
+.profile h2{
+    font-weight: 700;
+    margin-top: 20px;
+                font-size: 1.6rem;
+                color: #e0e0e0;
+                
+            }
+            
+.profile p{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    color: #FFBF00;
+    border: 1px solid#3a3a3a;
+    font-size: 0.8rem; 
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+
 }
 
 .main-content{
     height: 90vh;
     background-color: #2a2a2a;
-     order-radius: 16px;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
     
 }
     
+    .contact{
+    border-top: 2px solid #3a3a3a;
+    margin-top: 10px;
+    }
