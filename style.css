@@ -67,34 +67,35 @@ body {
   margin-top: 10px;
   padding-top: 20px;
 }
-.social{
-
-    border-top: 2px solid #3a3a3a;
-    margin-top: 10px;
-    padding-top: 20px;
-    text-align: center;
+.social {
+  border-top: 2px solid #3a3a3a;
+  margin-top: 10px;
+  padding-top: 20px;
+  text-align: center;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-    .email > a,
+.email > a,
 .phone > a,
 .location > p {
-
-    color: #e0e0e0;
+  color: #e0e0e0;
 }
-svg,a>img{
-    width: 24px;
-    height: 24px;
-    margin-left: 5px;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(206deg) brightness(103%) contrast(100%); 
-    opacity: 50%;
-    transition: grayscale(0) ease;
-    
+svg,
+a > img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
+    hue-rotate(206deg) brightness(103%) contrast(100%);
+  opacity: 50%;
+  transition: grayscale(0) ease;
 }
-svg,a:hover>img:hover{
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(206deg) brightness(103%) contrast(100%); 
-    opacity: 100%;
+svg,
+a:hover > img:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
+    hue-rotate(206deg) brightness(103%) contrast(100%);
+  opacity: 100%;
 }
 
 .email,
@@ -107,5 +108,54 @@ svg,a:hover>img:hover{
   /* color: #FFBF00; */
   font-weight: 500;
   font-size: 0.8rem;
+  color: #a0a0a0;
+}
+
+/* Main ::content */
+
+.navigation {
+  padding: 30px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3a3a3a;
+  /* text-decoration: none; */
+}
+
+nav > a {
+  transition: color 0.5s ease;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+nav > a:hover {
+  color: #ffbf00;
+}
+
+.heading{
+  color: #e0e0e0; 
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.line{
+  width: 60px;
+  height:10px;
+  border-radius: 5px;
+  background-color: #ffbf00;
+  margin-bottom: 10px;
+}
+
+#about,#skills{
+  padding: 10px 40px;
+}
+
+#about>p{
+  text-align: justify;
+  font-family: sans-serif;
   color: #a0a0a0;
 }
