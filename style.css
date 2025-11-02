@@ -90,13 +90,14 @@ a > img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
     hue-rotate(206deg) brightness(103%) contrast(100%);
   opacity: 50%;
-  transition: grayscale(0) ease;
+  transition: transform 0.3s ease;
 }
 svg,
 a:hover > img:hover {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
     hue-rotate(206deg) brightness(103%) contrast(100%);
   opacity: 100%;
+  transform: scale(1.2);
 }
 
 .email,
@@ -145,7 +146,7 @@ nav > a:hover {
 
 .line{
   width: 60px;
-  height:10px;
+  height:5px;
   border-radius: 5px;
   background-color: #ffbf00;
   margin-bottom: 10px;
