@@ -132,10 +132,12 @@ nav > a {
   transition: color 0.5s ease;
   color: #a0a0a0;
   font-weight: 500;
+  transition: transform 0.3s ease;
 }
 
 nav > a:hover {
   color: #ffbf00;
+  transform: scale(1.1);
 }
 
 .heading{
