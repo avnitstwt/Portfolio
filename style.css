@@ -191,7 +191,10 @@ nav > a:hover {
   margin-bottom: 10px;
   height: 48px;
 }
+.contact a:hover, .contact p:hover {
+color: #ffffff;
 
+}
 
 .year{
   font-size: 0.9rem;
