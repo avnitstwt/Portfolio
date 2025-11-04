@@ -154,7 +154,8 @@ nav > a:hover {
   margin-bottom: 10px;
 }
 
-#about,#skills,#education,#portfolio{
+#about,#skills,#education,#portfolio,.mail{
+  color: #e0e0e0;
   padding: 10px 40px;
 }
 
