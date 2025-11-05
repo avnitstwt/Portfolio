@@ -88,14 +88,14 @@ a > img {
   height: 24px;
   margin-left: 5px;
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
-    hue-rotate(206deg) brightness(103%) contrast(100%);
+  hue-rotate(206deg) brightness(103%) contrast(100%);
   opacity: 50%;
   transition: transform 0.3s ease;
 }
 svg,
 a:hover > img:hover {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
-    hue-rotate(206deg) brightness(103%) contrast(100%);
+  hue-rotate(206deg) brightness(103%) contrast(100%);
   opacity: 100%;
   transform: scale(1.2);
 }
@@ -195,8 +195,8 @@ nav > a:hover {
   height: 48px;
 }
 .contact a:hover, .contact p:hover {
-color: #ffffff;
-
+  color: #ffffff;
+  
 }
 
 .year{
@@ -284,7 +284,7 @@ color: #ffffff;
 .card h3{
   color: #e0e0e0;
   margin-bottom: 10px;
-
+  
 }
 
 .card p{
@@ -318,8 +318,31 @@ color: #ffffff;
   }
 }
 
+.name, .mail,.subject,.message{
+  display: flex;
+  flex-direction: column;
+
+}
+
+ label{
+  margin-top: 20px;
+ }
+ 
+input{
+  background-color: #2a2a2a;
+  /* border: none; */
+  /* color: #2a2a2a; */
+  border: 2px solid #3a3a3a;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.name,.mail{
+
+}
 .nameMail{
   display: flex;
-  /* flex-direction: column; */
-
+  justify-content: space-between;
 }
