@@ -316,6 +316,29 @@ nav > a:hover {
     grid-template-columns: 1fr;
     /* gap: 25px; */
   }
+  .name, .mail,.subject,.message{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+input{
+  background-color: #2a2a2a;
+  /* border: none; */
+  /* color: #2a2a2a; */
+  border: 2px solid #3a3a3a;
+  width: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+  .nameMail{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .name, .mail,.subject,.message{
