@@ -331,9 +331,6 @@ input{
   padding: 10px;
   
 }
-.name,.mail{
-  
-}
 .nameMail{
   display: flex;
   justify-content: space-between;
