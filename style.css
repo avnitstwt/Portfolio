@@ -300,8 +300,67 @@ nav > a:hover {
   margin-right: 5px;
   border-radius: 5px;
 }
+.name,.mail{
+  width: 45%;
+}
 
+.name, .mail,.subject,.message{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label{
+  margin-top: 20px;
+ }
+ 
+input{
+  background-color: #2a2a2a;
+  /* border: none; */
+  /* color: #2a2a2a; */
+  border: 2px solid #3a3a3a;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.name,.mail{
+  
+}
+.nameMail{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btn{
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  color: #ffbf00;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  border: 1px solid #3a3a3a;
+}
+
+.btn:hover{
+  box-shadow: #a00a0a;
+  background-color: #2a2a2a;
+  transform: scale(1.05);
+}
+i{
+  padding-right: 5px;
+}
+.sen{
+  padding-left: 5px;
+}
 @media (min-width: 1px) and (max-width: 600px) {
+  .name,.mail{
+    width: 100%;
+  }
   .main-container{
     display: flex;
     flex-direction: column;
@@ -319,16 +378,16 @@ nav > a:hover {
   .name, .mail,.subject,.message{
     display: flex;
     flex-direction: column;
-  
+    
   }
   
   
-input{
-  background-color: #2a2a2a;
+  input{
+    background-color: #2a2a2a;
   /* border: none; */
   /* color: #2a2a2a; */
   border: 2px solid #3a3a3a;
-  width: 35px;
+  width: 100%;
   margin-top: 5px;
   border-radius: 5px;
   padding: 10px;
@@ -339,33 +398,4 @@ input{
     display: flex;
     flex-direction: column;
   }
-}
-
-.name, .mail,.subject,.message{
-  display: flex;
-  flex-direction: column;
-
-}
-
- label{
-  margin-top: 20px;
- }
- 
-input{
-  background-color: #2a2a2a;
-  /* border: none; */
-  /* color: #2a2a2a; */
-  border: 2px solid #3a3a3a;
-  width: 350px;
-  margin-top: 5px;
-  border-radius: 5px;
-  padding: 10px;
-  
-}
-.name,.mail{
-
-}
-.nameMail{
-  display: flex;
-  justify-content: space-between;
 }
