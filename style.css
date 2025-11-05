@@ -154,7 +154,7 @@ nav > a:hover {
   margin-bottom: 10px;
 }
 
-#about,#skills,#education,#portfolio,.mail{
+#about,#skills,#education,#portfolio,.sendDetails{
   color: #e0e0e0;
   padding: 10px 40px;
 }
@@ -316,4 +316,10 @@ color: #ffffff;
     grid-template-columns: 1fr;
     /* gap: 25px; */
   }
+}
+
+.nameMail{
+  display: flex;
+  /* flex-direction: column; */
+
 }
